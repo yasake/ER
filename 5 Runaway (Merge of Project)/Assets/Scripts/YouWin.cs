@@ -29,7 +29,7 @@ public class YouWin : MonoBehaviour
 			enemyHealth.currentHealth = 0;
             // ... tell the animator the game is over.
             anim.SetTrigger ("GameWin");
-			text.text = "You Win!";
+			text.text = "You Win mein Lieber!";
 			
             // .. increment a timer to count up to restarting.
             restartTimer += Time.deltaTime;
